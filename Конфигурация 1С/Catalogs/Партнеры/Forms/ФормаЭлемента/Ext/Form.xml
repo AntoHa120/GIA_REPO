@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Тип" id="4">
+			<DataPath>Объект.Тип</DataPath>
+			<TitleFont ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<Font ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<ContextMenu name="ТипКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Наименование" id="1">
+			<DataPath>Объект.Description</DataPath>
+			<TitleFont ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<Font ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="НазваниеКомпании" id="7">
+			<DataPath>Объект.НазваниеКомпании</DataPath>
+			<TitleFont ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<Font ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<ContextMenu name="НазваниеКомпанииКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="НазваниеКомпанииРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ЮРАдрес" id="10">
+			<DataPath>Объект.ЮРАдрес</DataPath>
+			<TitleFont ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<Font ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<ContextMenu name="ЮРАдресКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ЮРАдресРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ИНН" id="13">
+			<DataPath>Объект.ИНН</DataPath>
+			<TitleFont ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<Font ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<ContextMenu name="ИННКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ФИОДиректора" id="16">
+			<DataPath>Объект.ФИОДиректора</DataPath>
+			<TitleFont ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<Font ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<ContextMenu name="ФИОДиректораКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ФИОДиректораРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Телефон" id="19">
+			<DataPath>Объект.Телефон</DataPath>
+			<TitleFont ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<Font ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<ContextMenu name="ТелефонКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="ЭлектроннаяПочта" id="22">
+			<DataPath>Объект.ЭлектроннаяПочта</DataPath>
+			<TitleFont ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<Font ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<ContextMenu name="ЭлектроннаяПочтаКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ЭлектроннаяПочтаРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="Логотип" id="25">
+			<DataPath>Объект.Логотип</DataPath>
+			<TitleFont ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<Font ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<ContextMenu name="ЛоготипКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ЛоготипРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="Рейтинг" id="28">
+			<DataPath>Объект.Рейтинг</DataPath>
+			<TitleFont ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<Font ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<ContextMenu name="РейтингКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="РейтингРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="МестеПродаж" id="31">
+			<DataPath>Объект.МестеПродаж</DataPath>
+			<TitleFont ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<Font ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<ContextMenu name="МестеПродажКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="МестеПродажРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="ИсторияРеализацииПродукции" id="34">
+			<DataPath>Объект.ИсторияРеализацииПродукции</DataPath>
+			<TitleFont ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<Font ref="style:NormalTextFont" faceName="Candara" kind="StyleItem"/>
+			<ContextMenu name="ИсторияРеализацииПродукцииКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ИсторияРеализацииПродукцииРасширеннаяПодсказка" id="36"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Партнеры</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
